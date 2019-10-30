@@ -15,6 +15,13 @@ $carbon = Carbon::today();
 $carbon = Carbon::tomorrow();
 $carbon = Carbon::yesterday();
 
+//$carbon = Carbon::now();
+//$start_ts = $carbon->startOfMonth()->timestamp;
+//$end_ts = $carbon->endOfMonth()->timestamp;
+
+//$start_ts = Carbon::tomorrow()->startOfDay()->timestamp;
+//$end_ts = Carbon::parse('+7 days')->endOfDay()->timestamp;
+
 $carbon = Carbon::parse('today')
 $carbon = Carbon::parse('yesterday')
 $carbon = Carbon::parse('tomorrow')
